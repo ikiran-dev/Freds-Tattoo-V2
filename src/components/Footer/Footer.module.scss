@@ -1,0 +1,44 @@
+.root {
+  min-height: 150px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  font-size: 16px;
+  flex-direction: column;
+  gap: 20px 0;
+  p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.4;
+  }
+  .iconsContainer {
+    display: flex;
+    gap: 0 10px;
+    .iconLink {
+      svg {
+        height: 28px;
+        width: 28px;
+        display: block;
+        transition: all .5s;
+      }
+      &:hover {
+        svg {
+          transform: translateY(5px);
+          color: #D99938;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .root {
+    padding: 0 20px;
+    text-align: center;
+    p {
+      font-size: 16px;
+    }
+  }
+}

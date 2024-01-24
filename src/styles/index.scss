@@ -1,0 +1,41 @@
+@import './libs/normalize';
+@import './fonts';
+*::selection {
+  color: black;
+  background: white;
+}
+input:-webkit-autofill
+{
+  -webkit-box-shadow: 0 0 0 30px rgba(black, 0.5) inset !important;
+}
+html {
+  scroll-snap-type: y mandatory;
+  background-color: black;
+}
+body {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  background-color: black;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255, 0.4);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.secondaryFont {
+  font-family: titleFont, sans-serif;
+}
+.container {
+  max-width: 1340px;
+  margin: 0 auto 100px;
+}
+

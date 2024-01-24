@@ -1,0 +1,51 @@
+.root div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  place-items: center;
+  width: 100%;
+
+  .imgLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-height: 435px;
+    border: none;
+    overflow: hidden;
+    padding: 5px;
+
+    .img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: all .5s;
+    }
+    &:hover {
+      .img {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+    }
+  }
+}
+@media(min-width: 1912px)
+{
+  .root div {
+    .imgLink {
+      max-height: 46.8vh;
+    }  }
+}
+@media(max-width: 920px)
+{
+  .root div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 540px)
+{
+  .root div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,19 @@
+.title {
+  position: relative;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1;
+  color: white;
+  text-shadow: -18px -18px 2px #777, 3px 3px 4px #000;
+  text-align: center;
+  z-index: 2;
+  &.marginBottom {
+    margin-bottom: 80px!important;
+  }
+}
+@media(max-width: 576px) {
+  .title {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+}
