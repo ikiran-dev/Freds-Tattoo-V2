@@ -91,7 +91,7 @@ export const ourTeamData = [
     social: [
       {
         title: 'Intagram',
-        link: 'https://www.instagram.com/adriannistal_latinta/',
+        link: '',
       },
     ],
     style: ['COLORWORK', 'JAPANESEWORK', 'HANDWORK'],
@@ -117,7 +117,7 @@ export const ourTeamData = [
     social: [
       {
         title: 'Intagram',
-        link: 'https://www.instagram.com/tattoo.soff/',
+        link: '',
       },
     ],
     style: ['FINE LINE', 'BLACKWORK', 'DOTWORK'],
@@ -137,7 +137,7 @@ export const ourTeamData = [
     social: [
       {
         title: 'Intagram',
-        link: 'https://www.instagram.com/lyon_noirtattoo/',
+        link: '',
       },
     ],
     style: ['DOTWORK', 'BLXCKWORK'],
@@ -155,7 +155,7 @@ export const ourTeamData = [
     social: [
       {
         title: 'Intagram',
-        link: 'https://www.instagram.com/elf.f_tattoo/',
+        link: '',
       },
     ],
     style: ['PIERCING', 'ANYSINGWORK', 'TATTOOWORK'],
@@ -174,7 +174,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 
 export const footerIconsData = [
   {
-    link: 'https://www.instagram.com/tattoo_blackrituals/',
+    link: '',
     icon: AiOutlineInstagram,
   },
 ];

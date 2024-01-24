@@ -52,7 +52,7 @@ export const TiltPage = ({ isMobile }) => {
         <div className={styles.contentContainer}>
           <Logo className={styles.logo} />
           <div className={`${styles.title} secondaryFont`}>
-            Black Rituals Tattoo
+            Freds Tattoo Studio
           </div>
           <div className={`${styles.btnContainer} secondaryFont`}>
             <ArrowBtn
