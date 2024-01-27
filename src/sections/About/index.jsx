@@ -1,60 +1,38 @@
-import React from 'react';
-import styles from './About.module.scss';
+import React from "react";
+import styles from "./About.module.scss";
 
 export const About = () => {
   return (
-    <section className={styles.root}>
-      <h3>Welcome to Freds Tattoo Studio</h3>
+    <section
+      style={{ maxWidth: "800px", textAlign: "justify" }}
+      className={styles.root}
+    >
+      <h3>
+        Welcome to{" "}
+        <span style={{ fontSize: "50px" }} className="secondaryFont">
+          Freds Tattoo Studio
+        </span>
+      </h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-        consectetur ea eaque et fugiat illum inventore ipsa maiores modi nam
-        nemo nihil nostrum, odio officiis placeat porro quaerat quam quasi
-        quidem quod repudiandae sint sit soluta vitae voluptate? Amet, autem
-        debitis inventore quam rerum sit voluptatibus. Adipisci animi distinctio
-        modi.
-        <em>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi est
-        </em>
-        and <em>Chrisley Knows Best</em> – to name a few.
+        In the enchanting tapestry of ink, my journey unfolded—a symphony of
+        curiosity harmonizing with the brush of self-expression. From the tender
+        embrace of novice enthusiasm to the dance of mastery, I wove my way
+        through the diverse realms of design and technique, a dedicated acolyte
+        in the sacred artistry of tattooing.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-        consectetur id provident similique vel? Asperiores atque doloribus
-        ducimus impedit nihil nisi obcaecati pariatur quod rem similique?
-        Architecto atque consequuntur dolor eius explicabo illo in ipsa
-        praesentium, rem repellendus sunt temporibus? Alias amet aut
-        consequuntur, debitis, doloribus eius esse eveniet expedita impedit nemo
-        nisi optio, quae quaerat ratione sed tempore totam.
+        Awakened by an unquenchable thirst to forge connections that transcend
+        the ordinary, I, with resolute intent, birthed Fred's Tattoo Studio.
+        More than a mere enterprise, it stands as an opus—an ode to tireless
+        dedication, ceaseless learning, and the profound rapture found in
+        transmuting passion into a life's craft.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad laboriosam
-        magni mollitia necessitatibus nihil, officia officiis quae qui quia
-        similique sit totam voluptatem! Dolores ducimus esse fuga id itaque
-        tempore?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid
-        assumenda molestias quam qui quis ratione saepe sint vitae voluptas. Ab
-        architecto quaerat vel? Accusamus accusantium beatae consectetur
-        deleniti dolorem eum ex excepturi fugit impedit ipsam maxime minima
-        molestiae neque nihil nostrum numquam odio placeat quas recusandae rem
-        repellat saepe sint, sunt temporibus unde vero vitae? Autem laudantium
-        maiores, natus nisi possimus provident quos ratione repellat sed?
-        Aliquid, est vitae?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-        adipisci aliquid amet aut beatae consectetur consequuntur deleniti earum
-        eligendi est, ex explicabo fuga libero officiis quo repellat saepe
-        suscipit tempora veniam voluptas. Molestias, porro sequi? Explicabo
-        laborum numquam possimus sit!&nbsp;
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-        doloribus ipsa nihil non vitae? Autem delectus distinctio dolores earum
-        exercitationem maiores quo temporibus vel. Ad aliquam animi dolor id
-        illo inventore modi neque numquam quasi quia reiciendis repudiandae
-        tempore, vero?
+        With each measured stroke of the needle, Fred's Tattoo Studio breathes
+        life into a canvas, where narratives are etched, and the language of the
+        soul is whispered. A sanctum where the art of ink transcends mere skin,
+        becoming a testament to the sacred marriage of artistry and the profound
+        joy of crafting one's destiny through the medium of tattoos.
       </p>
     </section>
   );

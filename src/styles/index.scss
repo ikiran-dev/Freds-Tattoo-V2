@@ -1,11 +1,10 @@
-@import './libs/normalize';
-@import './fonts';
+@import "./libs/normalize";
+@import "./fonts";
 *::selection {
   color: black;
   background: white;
 }
-input:-webkit-autofill
-{
+input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px rgba(black, 0.5) inset !important;
 }
 html {
@@ -15,7 +14,7 @@ html {
 body {
   color: white;
   font-size: 16px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -24,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(255,255,255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 body::-webkit-scrollbar-track {
@@ -39,3 +38,8 @@ body::-webkit-scrollbar-track {
   margin: 0 auto 100px;
 }
 
+@media (max-width: 385px) {
+  .mob_fix {
+    font-size: 40px !important;
+  }
+}

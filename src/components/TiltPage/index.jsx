@@ -1,11 +1,11 @@
-import React from 'react';
-import Tilt from 'react-parallax-tilt';
-import img from '../../assets/img/firstPageBg.png';
-import { ReactComponent as Logo } from '../../assets/icons/LogoTilt.svg';
-import styles from './TiltPage.module.scss';
-import { ArrowBtn } from '../';
-import { scrollDown } from '../../utils';
-import PropTypes from 'prop-types';
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import img from "../../assets/img/firstPageBg.png";
+import { ReactComponent as Logo } from "../../assets/icons/LogoTilt.svg";
+import styles from "./TiltPage.module.scss";
+import { ArrowBtn } from "../";
+import { scrollDown } from "../../utils";
+import PropTypes from "prop-types";
 
 export const TiltPage = ({ isMobile }) => {
   if (isMobile) {
@@ -50,7 +50,7 @@ export const TiltPage = ({ isMobile }) => {
     >
       <div className={styles.innerElement}>
         <div className={styles.contentContainer}>
-          <Logo className={styles.logo} />
+          {/*  <Logo className={styles.logo} /> */}
           <div className={`${styles.title} secondaryFont`}>
             Freds Tattoo Studio
           </div>

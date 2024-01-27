@@ -1,31 +1,31 @@
-import React from 'react';
-import styles from './Contacts.module.scss';
-import { MapCurtain, Map } from '../../components';
-import { BsFillTelephoneFill } from 'react-icons/bs';
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { AiFillInstagram } from 'react-icons/ai';
-import { CloseOpenTracker } from '../../components';
+import React from "react";
+import styles from "./Contacts.module.scss";
+import { MapCurtain, Map } from "../../components";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { CloseOpenTracker } from "../../components";
 
 const linkListData = [
   {
-    link: 'https://www.instagram.com/tattoo_blackrituals/',
+    link: "https://www.instagram.com/fredstattoostudio",
     icon: AiFillInstagram,
-    text: 'tattoo_blackrituals',
+    text: "fredstattoostudio",
   },
   {
-    link: 'tel:+34662483313',
+    link: "https://www.facebook.com/fredstattooandpiercingstudio/",
+    icon: AiFillFacebook,
+    text: "fredstattooandpiercingstudio",
+  },
+  {
+    link: "https://api.whatsapp.com/send?phone=919986596942&text=Hey%20Freds%20Tattoo%20Studio%2C%20I%27d%20like%20to%20book%20an%20appointment%20for%20a%20tattoo%2C%20what%27s%20your%20availability%3F%20Thanks!",
     icon: BsFillTelephoneFill,
-    text: '+34 662 483 313',
+    text: "+91-99865 96942",
   },
   {
-    link: 'tel:+34623201005',
-    icon: BsFillTelephoneFill,
-    text: '+34 623 201 005',
-  },
-  {
-    link: 'https://goo.gl/maps/3n9n7otCfzxxeRdq6',
+    link: "https://maps.app.goo.gl/fTmTF76EJUUWAqNQ6",
     icon: FaMapMarkerAlt,
-    text: 'C. Martínez Maldonado, 19, local 1, 29007 Málaga',
+    text: "3rd floor 972/A S.T. Bed, Koramangala 4th Block, Koramangala Bengaluru, Karnataka 560034 India",
   },
 ];
 
@@ -43,14 +43,11 @@ export const Contacts = () => {
             </li>
           ))}
         </ul>
-        <ul className={styles.scheduleList}>
+        <ul style={{ textAlign: "left" }} className={styles.scheduleList}>
           <li>
-            <h3>
-              We are currently <CloseOpenTracker />
-            </h3>
-          </li>
-          <li>
-            <h3>Horario:</h3>
+            <span style={{ fontSize: "50px" }} className="secondaryFont">
+              Our Timings:
+            </span>
           </li>
           <li>Monday - 10:00 – 20:30</li>
           <li>Tuesday - 10:00–20:30</li>
