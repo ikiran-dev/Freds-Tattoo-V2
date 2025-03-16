@@ -19,7 +19,7 @@ export const TiltPage = ({ isMobile }) => {
         <div className={styles.innerElement}>
           <div className={styles.contentContainer}>
             <div className={`${styles.title} secondaryFont`}>
-              Freds Tattoo Studio
+              DarkInk Tattoo Studio
             </div>
             <div className={`${styles.btnContainer} secondaryFont`}>
               <ArrowBtn
@@ -51,7 +51,7 @@ export const TiltPage = ({ isMobile }) => {
         <div className={styles.contentContainer}>
           {/*  <Logo className={styles.logo} /> */}
           <div className={`${styles.title} secondaryFont`}>
-            Freds Tattoo Studio
+            DarkInk Tattoo Studio
           </div>
           <div className={`${styles.btnContainer} secondaryFont`}>
             <ArrowBtn

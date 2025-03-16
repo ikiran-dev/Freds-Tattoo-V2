@@ -10,7 +10,7 @@ export const About = () => {
       <h3>
         Welcome to{" "}
         <span style={{ fontSize: "50px" }} className="secondaryFont">
-          Freds Tattoo Studio
+          DarkInk Tattoo Studio
         </span>
       </h3>
       <p>
@@ -22,13 +22,13 @@ export const About = () => {
       </p>
       <p>
         Awakened by an unquenchable thirst to forge connections that transcend
-        the ordinary, I, with resolute intent, birthed Fred's Tattoo Studio.
+        the ordinary, I, with resolute intent, birthed Dark Ink Tattoo Studio.
         More than a mere enterprise, it stands as an opus—an ode to tireless
         dedication, ceaseless learning, and the profound rapture found in
         transmuting passion into a life's craft.
       </p>
       <p>
-        With each measured stroke of the needle, Fred's Tattoo Studio breathes
+        With each measured stroke of the needle, DarkInk Tattoo Studio breathes
         life into a canvas, where narratives are etched, and the language of the
         soul is whispered. A sanctum where the art of ink transcends mere skin,
         becoming a testament to the sacred marriage of artistry and the profound

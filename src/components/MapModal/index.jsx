@@ -6,15 +6,15 @@ export const MapModal = () => {
     <div className={styles.placeDiv}>
       <div className={styles.placecard__container}>
         <div className={styles.placecard__left}>
-          <p className={styles.placecard__business_name}>Freds Tattoo Studio</p>
+          <p className={styles.placecard__business_name}>DarkInk Tattoo Studio</p>
           <p className={styles.placecard__info}>
-            C. Martínez Maldonado, 19, local 1, 29007 Málaga
+           652 11th main road, 4th block, Jayanagar, Bangalore-560011
           </p>
           <a
             className={styles.placecard__view_large}
             target="_blank"
             rel="noreferrer"
-            href="https://goo.gl/maps/3n9n7otCfzxxeRdq6"
+            href="https://g.co/kgs/zbMLJRr"
             id="A_41"
           >
             View larger map

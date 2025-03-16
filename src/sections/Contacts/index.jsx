@@ -8,24 +8,24 @@ import { CloseOpenTracker } from "../../components";
 
 const linkListData = [
   {
-    link: "https://www.instagram.com/fredstattoostudio",
+    link: "https://www.instagram.com/darkinktattoostudio7?igsh=MWlxcTY1eHJoZTJ6NA==",
     icon: AiFillInstagram,
-    text: "fredstattoostudio",
+    text: "DarkInk Tattoo Studio",
   },
+  // {
+  //   link: "https://www.facebook.com/fredstattooandpiercingstudio/",
+  //   icon: AiFillFacebook,
+  //   text: "DarkInk Tattoo Studio",
+  // },
   {
-    link: "https://www.facebook.com/fredstattooandpiercingstudio/",
-    icon: AiFillFacebook,
-    text: "fredstattooandpiercingstudio",
-  },
-  {
-    link: "https://api.whatsapp.com/send?phone=919986596942&text=Hey%20Freds%20Tattoo%20Studio%2C%20I%27d%20like%20to%20book%20an%20appointment%20for%20a%20tattoo%2C%20what%27s%20your%20availability%3F%20Thanks!",
+    link: "https://api.whatsapp.com/send?phone=919620770719&text=DarkInk%20Tattoo%20Studio,%20I'd%20like%20to%20book%20an%20appointment%20for%20a%20tattoo,%20what's%20your%20availability?%20Thanks!",
     icon: BsFillTelephoneFill,
-    text: "+91-99865 96942",
+    text: "+91-9620770719",
   },
   {
-    link: "https://maps.app.goo.gl/fTmTF76EJUUWAqNQ6",
+    link: "https://g.co/kgs/zbMLJRr",
     icon: FaMapMarkerAlt,
-    text: "3rd floor 972/A S.T. Bed, Koramangala 4th Block, Koramangala Bengaluru, Karnataka 560034 India",
+    text: "652 11th main road, 4th block, Jayanagar, Bangalore-560011",
   },
 ];
 

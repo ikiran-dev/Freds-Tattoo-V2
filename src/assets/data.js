@@ -173,7 +173,7 @@ export const menuBarData = [
 
 export const footerIconsData = [
   {
-    link: "https://www.instagram.com/fredstattoostudio",
+    link: "https://www.instagram.com/darkinktattoostudio7?igsh=MWlxcTY1eHJoZTJ6NA==",
     icon: AiOutlineInstagram,
   },
 ];

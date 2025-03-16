@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className={styles.root}>
       <p>
-        All images are Copyright 2022. Freds Tattoo Studio . All rights
+        All images are Copyright 2025. DarkInk Tattoo Studio. All rights 
         reserved.
       </p>
       <ul className={styles.iconsContainer}>

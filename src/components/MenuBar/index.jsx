@@ -32,7 +32,7 @@ export const MenuBar = ({ isScrolled }) => {
     <nav className={`${styles.root} ${isScrolled ? styles.active : ""}`}>
       <Link to="/">
         <span style={{ fontSize: "70px" }} className="secondaryFont mob_fix">
-          Freds Tattoo Studio
+          DarkInk Tattoo Studio
         </span>
         {/* <LogoText className={styles.logo} /> */}
       </Link>
